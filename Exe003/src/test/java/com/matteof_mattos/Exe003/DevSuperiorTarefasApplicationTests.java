@@ -1,10 +1,10 @@
-package com.matteof_mattos;
+package com.matteof_mattos.Exe003;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Exe003ApplicationTests {
+class DevSuperiorTarefasApplicationTests {
 
 	@Test
 	void contextLoads() {

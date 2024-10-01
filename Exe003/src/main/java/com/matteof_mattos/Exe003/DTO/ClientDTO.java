@@ -1,6 +1,6 @@
-package com.matteof_mattos.DTO;
+package com.matteof_mattos.Exe003.DTO;
 
-import com.matteof_mattos.entities.Client;
+import com.matteof_mattos.Exe003.entities.Client;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.PastOrPresent;
 import jakarta.validation.constraints.Positive;

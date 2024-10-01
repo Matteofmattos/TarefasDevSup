@@ -1,8 +1,6 @@
-package com.matteof_mattos.exe003.DTO;
+package com.matteof_mattos.Exe003.DTO;
 
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
 
 public class CustomErrorDTO {
 

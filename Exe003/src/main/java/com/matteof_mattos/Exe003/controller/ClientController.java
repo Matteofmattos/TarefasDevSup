@@ -1,7 +1,7 @@
-package com.matteof_mattos.exe003.controller;
+package com.matteof_mattos.Exe003.controller;
 
-import com.matteof_mattos.exe003.DTO.ClientDTO;
-import com.matteof_mattos.exe003.service.ClientService;
+import com.matteof_mattos.Exe003.DTO.ClientDTO;
+import com.matteof_mattos.Exe003.service.ClientService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -41,7 +41,7 @@ public class ClientController {
     }
 
     @PutMapping(value = "/{id}")
-    public ResponseEntity<ClientDTO> updateClient(@PathVariable long id, @Valid@RequestBody ClientDTO clientDTO){
+    public ResponseEntity<ClientDTO> updateClient(@PathVariable long id, @Valid @RequestBody ClientDTO clientDTO){
           return ResponseEntity.ok(clientService.updateClient(id,clientDTO));
     }
 

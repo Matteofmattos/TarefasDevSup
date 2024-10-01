@@ -1,4 +1,4 @@
-package com.matteof_mattos.exe003.DTO;
+package com.matteof_mattos.Exe003.DTO;
 
 public class FIeldMessege {
 

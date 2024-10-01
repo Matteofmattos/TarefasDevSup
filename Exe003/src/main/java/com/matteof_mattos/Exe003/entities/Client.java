@@ -1,8 +1,9 @@
-package com.matteof_mattos.exe003.entities;
+package com.matteof_mattos.Exe003.entities;
 
-import com.matteof_mattos.exe003.DTO.ClientDTO;
+import com.matteof_mattos.Exe003.DTO.ClientDTO;
 import jakarta.persistence.*;
-import java.time.Instant;
+
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "tb_clients")
@@ -21,13 +22,13 @@ public class Client {
     private double income;
 
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
-    private Instant birthDate;
+    private LocalDate birthDate;
 
     private int children;
 
     public Client() { }
 
-    public Client(long id, String name, String cpf, double income, Instant birthDate, int children) {
+    public Client(long id, String name, String cpf, double income, LocalDate birthDate, int children) {
         this.id = id;
         this.name = name;
         this.cpf = cpf;
@@ -76,11 +77,11 @@ public class Client {
         this.income = income;
     }
 
-    public Instant getBirthDate() {
+    public LocalDate getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(Instant birthDate) {
+    public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
 

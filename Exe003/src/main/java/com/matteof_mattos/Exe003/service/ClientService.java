@@ -1,10 +1,10 @@
-package com.matteof_mattos.exe003.service;
+package com.matteof_mattos.Exe003.service;
 
-import com.matteof_mattos.exe003.DTO.ClientDTO;
-import com.matteof_mattos.exe003.entities.Client;
-import com.matteof_mattos.exe003.exceptions.DatabaseException;
-import com.matteof_mattos.exe003.exceptions.ResourceNotFoundException;
-import com.matteof_mattos.exe003.repositories.ClientRepository;
+import com.matteof_mattos.Exe003.DTO.ClientDTO;
+import com.matteof_mattos.Exe003.entities.Client;
+import com.matteof_mattos.Exe003.exceptions.DatabaseException;
+import com.matteof_mattos.Exe003.exceptions.ResourceNotFoundException;
+import com.matteof_mattos.Exe003.repositories.ClientRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;

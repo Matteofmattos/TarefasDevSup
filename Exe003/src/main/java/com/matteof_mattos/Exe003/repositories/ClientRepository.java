@@ -1,6 +1,6 @@
-package com.matteof_mattos.repositories;
+package com.matteof_mattos.Exe003.repositories;
 
-import com.matteof_mattos.entities.Client;
+import com.matteof_mattos.Exe003.entities.Client;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
